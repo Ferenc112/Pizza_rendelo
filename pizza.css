@@ -4,16 +4,18 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg');
-    background-size: cover;
-    
+    background-size: cover;    
     background-repeat: no-repeat;
 }
 h1 {
     text-align: center;
     color: #b10f0f;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 h3 {
     color: #0151a1;
+    text-decoration:wavy underline;
+     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 input[type="radio"], input[type="checkbox"] {
     margin-right: 10px;
@@ -43,12 +45,12 @@ button:hover {
     margin-top: 30px;
 }
 .order {
-    background-color: white;
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     margin-bottom: 10px;
 }
 .order button {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.4);
     color: #f44336;
     border: 1px solid #f44336;
     border-radius: 150px;
